@@ -22,6 +22,7 @@ header {
     min-height: 150;
     text-align: center;
     padding-top: 40px;
+
 }
 .cabecalho {
     margin: 0;
@@ -43,8 +44,8 @@ header {
 
 }
 .links{
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
-    font-family: 'minhafont';
     text-decoration: none;
     color: white;
     padding: 3px;
@@ -150,5 +151,36 @@ h3 {
     background-color: rgba(34, 29, 29, 0.315);
     font-family: 'minhafont';
 }
-
+.redes-sociais {
+    text-align: left;
+    list-style-position:inside;
+    list-style: none;
+}
+ ul .redes {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    border-radius: 50px;
+    margin: 0px 5px;
+ }
+ ul .redes:hover {
+    background: rgb(49, 188, 207);
+    color: rgb(10, 10, 111);
+ }
+ ul .redes i:hover {
+    transform: scale(1.0) rotate(15deg);
+    font-size:1em;
+    cursor: pointer;
+ }
+ .tabela {
+    height: auto;
+    background-color: cadetblue;
+    margin: 0;
+    border-radius: 5px;
+ }
 
