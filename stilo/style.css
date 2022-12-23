@@ -151,12 +151,10 @@ h3 {
     background-color: rgba(34, 29, 29, 0.315);
     font-family: 'minhafont';
 }
-.redes-sociais {
-    text-align: left;
-    list-style-position:inside;
-    list-style: none;
+nav a {
+    text-decoration: 0;
 }
- ul .redes {
+ nav .redes {
     display: inline-flex;
     width: 30px;
     height: 30px;
@@ -168,19 +166,36 @@ h3 {
     border-radius: 50px;
     margin: 0px 5px;
  }
- ul .redes:hover {
-    background: rgb(49, 188, 207);
-    color: rgb(10, 10, 111);
+ nav .redes:hover {
+    background-color: rgb(21, 10, 145);
+    color: rgb(49, 206, 25);
+    transform: scale(1.0) rotate(20deg);
+    font-size: 1em;
  }
- ul .redes i:hover {
-    transform: scale(1.0) rotate(15deg);
-    font-size:1em;
-    cursor: pointer;
+ .minha-foto {
+  width: 250px;
+  height: 400px;
+  min-width: 250px;
+  max-height: 320px;
+  border-radius: 50%;
+  transition: 2s;
+ }
+ .minha-foto:hover {
+    border-radius:10px;
+    padding: 5PX;
+    transition: 2s;
+ }
+ .perfil {
+    display: flex;
  }
  .tabela {
     height: auto;
-    background-color: cadetblue;
-    margin: 0;
-    border-radius: 5px;
+    width: 100%;
+    background-color: aquamarine;
  }
-
+ .comentario {
+    position: relative;
+    text-align: center;
+    top:140px;
+    padding-left: 15px;
+ }
